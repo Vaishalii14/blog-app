@@ -1,4 +1,4 @@
-<h1 align="center">Blog-It</h1>
+<h1 align="center">BLOG_IT</h1>
 
  <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -30,7 +30,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## ABOUT THE PROJECT
 * It is a webApp in which users can create blogs under different categories, can view them in the HomePage and can update/delete their own blogs. Users can also comment on blogs.
 * Authentication is done to ensure that only the writer of the post/comment can delete/update their post/comment.
 * UI of the webApp  is built using material UI. 
@@ -47,23 +47,26 @@ Laptops and Desktops.
 
 <!-- INSTALLATIONS -->
 
-## Getting Started
+## GETTING STARTED
 To install and run the project on your local system, clone this repo to your local machine and open command prompt and go to that path:
 
 ### Installation
 ```sh
-  pip install -r requirements.txt
+ 
 ```
 * To run it on the local host-
 
 To separately run the application on your local host,run the following command:
 
 ```sh
-  Python manage.py runserver
+  Cd client
+Npm start
+Cd server 
+npm start
 ```
 
 <!-- APP TUTORIAL-->
-## Navigating Through The App
+## NAVIGATING THROUGH THE APP
 ### Login 
 Registered Users can log in to their account using the username and password and can start creating and viewing blogs. New users can signup using their email.
 
@@ -79,8 +82,21 @@ Users can create blogs by clicking on the ‘Create Blog’ button after choosin
 
 <img src="images/recommendation-window.png" alt="blank chat window" width="700"/>
 
-###Particular Blog-
+###particular-blog-
 After clicking on a particular blog,user is redirected to the respective blog wherein the user can comment on blog and if the comment is written by that particular user,he can choose to delete it.Similarly, if the blog is written by that particular user, he can choose to delete/upadate the blog. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

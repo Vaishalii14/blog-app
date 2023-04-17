@@ -23,7 +23,7 @@
         <li><a href="#create-blog">Create a Blog</a></li>
         <li><a href=”#particular-blog”>Particular Blog</a></li>
       </ul>
-    <li><a href="#future-scope">Future Scope</a></li>
+    
     
   </ol>
 </details>
@@ -70,7 +70,7 @@ npm start
 
 <!-- APP TUTORIAL-->
 ## NAVIGATING THROUGH THE APP
-### Login 
+### Login and Signup
 Registered Users can log in to their account using the username and password and can start creating and viewing blogs. New users can signup using their email.
 
 <img src="images/login-screen.png" alt="login screen" width="700"/>

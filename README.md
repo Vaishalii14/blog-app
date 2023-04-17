@@ -52,16 +52,19 @@ To install and run the project on your local system, clone this repo to your loc
 
 ### Installation
 ```sh
- 
+cd client
+npm install
+cd server 
+npm install
 ```
 * To run it on the local host-
 
 To separately run the application on your local host,run the following command:
 
 ```sh
-  Cd client
-Npm start
-Cd server 
+cd client
+npm start
+cd server 
 npm start
 ```
 

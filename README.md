@@ -31,18 +31,17 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-* It is a webApp in which users can create blogs
-* A user can create account, login, rate movies, get recommendations, add movies to Watchlist and check about the cast and crew of a particular movie using the tmbd API.
+* It is a webApp in which users can create blogs under different categories, can view them in the HomePage and can update/delete their own blogs. Users can also comment on blogs.
+* Authentication is done to ensure that only the writer of the post/comment can delete/update their post/comment.
+* UI of the webApp  is built using material UI. 
 
-### Problem Statement
-Demonstrate through your app the different kinds of algorithms that a web-streaming app (like Netflix) or an audio-streaming app (like Spotify) may use for their Recommendation Engine.
 
 ### Compatible Platforms
 Laptops and Desktops.
 
 ### Tech Stack  
-1.Front-end: HTML, CSS, Bootstrap, JavaScript
-2. Back-end: Django
+1. Front-end: React.js
+2. Back-end: Node.js, Express.js, MongoDB
 
 
 
@@ -66,25 +65,32 @@ To separately run the application on your local host,run the following command:
 <!-- APP TUTORIAL-->
 ## Navigating Through The App
 ### Login 
-Registered Users can login into their account using the username and password and can start rating the movies and then get recommendations.
+Registered Users can log in to their account using the username and password and can start creating and viewing blogs. New users can signup using their email.
 
 <img src="images/login-screen.png" alt="login screen" width="700"/>
  
 ### Home Page-
-This page displays all the movies and users can click on the movie and give ratings and add them to list or can see the cast and crew of the movie. 
+This page displays all the blogs and categories available. Users can choose to view blogs written by other users by clicking on that particular blog.
 
 <img src="images/Home-screen.png" alt="video call welcome screen" width="700"/>
 
-### Get Recommendations-
-Registered users will get some recommendations based on the rating given by them by clicking on the button 'Get Recommendation' to get some recommendations.
+### Create a blog-
+Users can create blogs by clicking on the ‘Create Blog’ button after choosing a particular category listed on the home page. Users after choosing a suitable title, and description and adding an image can click on the ‘Submit’ button. After submitting, the blog will be displayed on the home page.
 
 <img src="images/recommendation-window.png" alt="blank chat window" width="700"/>
 
+###Particular Blog-
+After clicking on a particular blog,user is redirected to the respective blog wherein the user can comment on blog and if the comment is written by that particular user,he can choose to delete it.Similarly, if the blog is written by that particular user, he can choose to delete/upadate the blog. 
 
-<!-- FUTURE SCOPE -->
 
-## Future Scope
 
-The recommendation system can be improved using model based collaborative filtering which is based on matrix factorization (MF). A well-known matrix factorization method is Singular value decomposition (SVD). At a high level, SVD is an algorithm that decomposes a matrix A into the best lower rank (i.e. smaller/simpler) approximation of the original matrix A. Mathematically, it decomposes A into a two unitary matrices and a diagonal matrix
+
+
+
+
+
+
+
+
 
 

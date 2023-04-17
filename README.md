@@ -89,7 +89,7 @@ Users can create blogs by clicking on the ‘Create Blog’ button after choosin
 ### Particular Blog
 After clicking on a particular blog,user is redirected to the respective blog wherein the user can comment on blog and if the comment is written by that particular user,he can choose to delete it.Similarly, if the blog is written by that particular user, he can choose to delete/upadate the blog. 
 
-<img src="images/View-Blogs.png" alt="blank chat window" width="700"/>
+<img src="images/View Blogs.png" alt="blank chat window" width="700"/>
 
 
 
